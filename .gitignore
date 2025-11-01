@@ -1,0 +1,43 @@
+# ============================
+# Flutter
+# ============================
+# Build outputs
+flutter/build/
+flutter/.dart_tool/
+flutter/.pub/
+flutter/.idea/
+flutter/.vscode/
+
+# Firebase config (google-services.json)
+flutter/android/app/google-services.json
+
+# ============================
+# Laravel
+# ============================
+# Dependencies
+laravel/test1/vendor/
+laravel/test1/node_modules/
+
+# Environment and secrets
+laravel/test1/.env
+laravel/test1/.env.local
+laravel/test1/.env.testing
+laravel/test1/.idea/
+laravel/test1/.vscode/
+
+# Storage logs and cache
+laravel/test1/storage/logs/
+laravel/test1/storage/framework/cache/
+laravel/test1/storage/framework/sessions/
+laravel/test1/storage/framework/views/
+
+# ============================
+# Hardware / Arduino
+# ============================
+# Compiled binaries
+hardware/*.hex
+hardware/*.bin
+
+# Any temporary IDE files
+hardware/.vscode/
+hardware/.idea/
